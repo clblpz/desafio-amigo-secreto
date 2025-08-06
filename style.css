@@ -1,10 +1,10 @@
 :root {
-    --color-primary: #4B69FD;
-    --color-secondary: #FFF9EB;
-    --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
-    --color-text: #444444;
+    --color-primary: #04350f;
+    --color-secondary: #3d1901;
+    --color-tertiary: #a3a0a0;
+    --color-button: #4e883f;
+    --color-button-hover: #239e94;
+    --color-text: #f3eded;
     --color-white: #FFFFFF;
 }
 
@@ -43,7 +43,7 @@ body {
 .input-section {
     flex: 60%;
     background-color: var(--color-secondary);
-    border: 1px solid #000;
+    border: 1px solid #ffffff;
     border-radius: 64px 64px 0 0;
     display: flex;
     flex-direction: column;
@@ -65,7 +65,7 @@ body {
     font-family: "Inter", serif;
     font-size: 36px;
     font-weight: 700;
-    color: var(--color-primary);
+    color: var(--color-tertiary);
     margin: 10px 0;
     text-align: center;
 }
@@ -82,7 +82,7 @@ body {
 .input-name {
     width: 100%;
     padding: 10px;
-    border: 2px solid #000;
+    border: 2px solid #000000;
     border-radius: 25px 0 0 25px;
     font-size: 16px;
 }
