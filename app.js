@@ -118,7 +118,7 @@ function reiniciarSorteo() {
     document.getElementById("resultado").innerHTML = "";
 
     //Activación botón de sorteo
-    document.querySelector("button-draw").disable = true;
+    document.querySelector("button-draw").disable = false;
 
     //Limpieza input
     document.querySelector('#amigo').value = '';
